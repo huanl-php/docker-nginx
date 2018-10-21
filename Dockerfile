@@ -34,7 +34,7 @@ RUN CONFIG="\
 		gcc \
 		libc-dev \
 		make \
-		openssl-dev \
+		libressl-dev \
 		pcre-dev \
 		zlib-dev \
     && wget https://nginx.org/download/nginx-${NGINX_VERSION}.tar.gz \
